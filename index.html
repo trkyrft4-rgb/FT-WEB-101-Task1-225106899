@@ -1,0 +1,237 @@
+<!--
+Student Name: REFAAT HAZEM TOURKY
+Student ID: 225106899
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Refaat Hazem | Personal Profile</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+
+        <div class="nav-container">
+
+            <a href="#home" class="logo">
+                REFAAT<span>.</span>
+            </a>
+
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <!-- Professional Dark Mode Toggle -->
+            <button
+                id="themeBtn"
+                class="theme-toggle"
+                type="button"
+                aria-label="Switch to dark mode"
+                aria-pressed="false"
+            >
+
+                <span class="theme-icon">☀️</span>
+
+                <span class="theme-label">Light</span>
+
+                <span class="toggle-track">
+                    <span class="toggle-thumb"></span>
+                </span>
+
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- Profile Section -->
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <span class="welcome">WELCOME TO MY PROFILE</span>
+
+                <h1>REFAAT HAZEM TOURKY</h1>
+
+                <h2>Computer Science Student</h2>
+
+                <p>
+                    Hello! I'm Refaat, a Computer Science student
+                    interested in technology, programming, and
+                    data analysis. I'm always looking to learn
+                    new skills and improve my knowledge.
+                </p>
+
+                <a href="#contact" class="main-btn">
+                    Contact Me
+                </a>
+
+            </div>
+
+
+            <div class="hero-image">
+
+                <img
+                    src="images/me.jpg"
+                    alt="Photo of Refaat Hazem"
+                >
+
+            </div>
+
+        </section>
+
+
+        <!-- About Section -->
+        <section class="about" id="about">
+
+            <div class="section-title">
+
+                <span>GET TO KNOW ME</span>
+
+                <h2>About Me</h2>
+
+                <p>
+                    A little information about my skills and interests.
+                </p>
+
+            </div>
+
+
+            <!-- Three Cards -->
+            <div class="cards-container">
+
+                <div class="card">
+
+                    <div class="card-icon">01</div>
+
+                    <h3>My Skills</h3>
+
+                    <p>
+                        Programming fundamentals, problem solving,
+                        HTML, CSS, and JavaScript.
+                    </p>
+
+                </div>
+
+
+                <div class="card">
+
+                    <div class="card-icon">02</div>
+
+                    <h3>My Interests</h3>
+
+                    <p>
+                        Technology, web development,
+                        data analysis, and learning new things.
+                    </p>
+
+                </div>
+
+
+                <div class="card">
+
+                    <div class="card-icon">03</div>
+
+                    <h3>My Goals</h3>
+
+                    <p>
+                        Improving my technical skills,
+                        building useful projects, and
+                        developing my career.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+
+            <div class="section-title">
+
+                <span>LET'S CONNECT</span>
+
+                <h2>Contact Me</h2>
+
+                <p>
+                    Leave your name and email address.
+                </p>
+
+            </div>
+
+
+            <form id="contactForm">
+
+                <div class="input-group">
+
+                    <label for="name">Your Name</label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Enter your name"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="input-group">
+
+                    <label for="email">Email Address</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Enter your email"
+                        required
+                    >
+
+                </div>
+
+
+                <button type="submit" class="submit-btn">
+                    Send Message
+                </button>
+
+                <p id="formMessage"></p>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 REFAAT HAZEM TOURKY. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
